@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/wood"
+     android:padding="10dp" >
+
+    <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the GroupId to delete:" 
+        android:inputType="number"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+         android:textSize="20dp"
+         android:inputType="number">
+
+        <requestFocus />
+    </EditText>
+    
+<!--     <Button -->
+<!--         android:id="@+id/bGo" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:text="Go"  -->
+<!--          android:layout_weight="80" -->
+<!--         /> -->
+    
+   
+     <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View All Groups" 
+        android:textSize="12dp"/>
+
+   
+     <Button
+        android:id="@+id/b1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Group" 
+        android:layout_marginTop="25dp"/>
+    
+
+</LinearLayout>

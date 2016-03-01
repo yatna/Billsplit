@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    android:background="@drawable/wood"
+    >
+
+     <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter GroupID" 
+         android:textSize="19dp"
+       />
+ <LinearLayout 
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:paddingBottom="5dp">
+  
+    
+      <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+         android:textSize="20dp"
+         android:inputType="number"
+         android:layout_weight="60">
+
+        <requestFocus />
+    </EditText>
+     <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Groups" 
+        android:textSize="13dp"
+         android:layout_weight="40"/>
+    
+    </LinearLayout>
+    
+    
+ 
+   
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="50"
+    android:scrollbarSize="10dp" >
+    
+      <LinearLayout 
+       android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp">
+        
+        <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Group name" 
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+       
+        android:textSize="18dp"
+         android:textStyle="bold"
+        />
+    
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment From          Amount" 
+        android:textSize="18dp"
+       />
+    <LinearLayout 
+       android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"  
+    android:weightSum="100" >
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:layout_marginBottom="10dp"
+        android:layout_weight="25">
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:text="0"
+         android:layout_weight="35">
+       <requestFocus />
+    </EditText>
+     <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go" 
+         android:layout_weight="40"
+        />
+    </LinearLayout>
+    
+      
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment To" 
+        android:layout_weight="70"
+        android:textSize="19dp"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ratio"
+         android:layout_weight="30"
+         android:textSize="19dp"
+         />
+    </LinearLayout>
+
+  
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+   >
+    <TextView 
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:hint="Member 1 :"/>
+     <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" 
+        android:layout_weight="70"
+        android:text="0"/>
+     </LinearLayout>
+     
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+  <TextView 
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+         android:hint="Member 2 :"/>
+     <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" 
+        android:layout_weight="70"
+        android:text="0"/>
+     </LinearLayout>
+ 
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+   >
+   <TextView 
+       android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+         android:hint="Member 3 :"/>
+     <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" 
+        android:layout_weight="70"
+        android:text="0"/>
+     </LinearLayout>
+  
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+    <TextView 
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+         android:hint="Member 4 :"/>
+     <EditText
+        android:id="@+id/et6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" 
+        android:layout_weight="70"
+        android:text="0"/>
+     </LinearLayout>
+   
+     <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+    <TextView 
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+         android:hint="Member 5 :"/>
+     <EditText
+        android:id="@+id/et7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" 
+        android:layout_weight="70"
+        android:text="0"/>
+     </LinearLayout>
+    
+    
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Enter Comment"
+     android:textSize="18dp"
+     android:textStyle="bold"
+      />
+
+ <EditText
+     android:id="@+id/et8"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:ems="10" 
+     android:hint="eg. 24dec @chaiwale ke yahaan "/>
+ <Button
+     android:id="@+id/b3"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="Make Payment" 
+     android:layout_marginTop="8dp"
+     />
+
+  </LinearLayout>
+        </ScrollView> 
+
+  
+
+</LinearLayout>

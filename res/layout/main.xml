@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp"
+     android:background="@drawable/wood"
+    >
+    
+     <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" 
+                    android:orientation="vertical"
+                     android:layout_marginTop="60dp">
+
+                 
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Group"
+       />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Group" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Group" />
+    
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Payment" />
+    
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Payments" />
+    
+    </LinearLayout>
+     <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="15dp" >
+    
+         <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bill$plit is a service to help you and your friends keep track of who owes what on items ranging from utility bills to takeout food. It offers a fairly straightforward interface for adding recurring and one-time expenses, as well as a “quick add” feature for modifying balances without having to identify specific expenses. Bill$plit also neatly keeps track of each friend’s balances, focusing more on how much is owed than on the details of each expense, which helps keep things simple." 
+         android:textSize="17dp"
+       />
+   
+       
+       
+    </LinearLayout>
+     </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

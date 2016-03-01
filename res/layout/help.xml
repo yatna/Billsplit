@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOW ARE THE DEBTS CALCULATED?
+        Number of debts and the total amount transferred are minimized .This can lead to unexpected transactions where you should give money to somebody you don't directly owe. To view the entire history of the transactions you can also click the view history button.So your entire transactions of months can be cleared within a few payments." />
+
+</LinearLayout>
